@@ -1,132 +1,127 @@
-
-.title-div{
-    display: flex;
-    flex-direction:row;
-    gap: 50px;
-    margin-left: 50px;
-    margin-top: 20px;
+.title-div {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
-.title-img input{
-    position: absolute;
-    padding: 15px;
-    width: 340px;
-    border-radius: 30px;
-    background-color: #fff;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
-    border:none;
-    text-align:center;
+.title-img input {
+  position: absolute;
+  padding: 15px;
+  width: 340px;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  border: none;
+  text-align: center;
 }
-.title-img img{
-    position: relative;
-    left: 22px;
-    top: 10px;   
+.title-img img {
+  position: relative;
+  left: 22px;
+  top: 10px;
 }
 
-.title-hamburger img{
-    width: 30px;
-    margin-top: 10px;
+.title-hamburger img {
+  width: 30px;
+  margin-top: 10px;
 }
 
 .chat-list {
-    display: flex;
-    flex-direction: column; 
-    gap: 20px;              
-    padding: 10px;
-    margin-left: 20px;
-    margin-top: 20px;
-
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .chat-item {
-    display: flex;
-    flex-direction: row;    
-    align-items: center;
-    gap: 90px;
-    background-color: #fff;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
-    width: 400px;
-    padding: 20px;
-    border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 90px;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 .chat-item img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    object-fit: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .chat-item h1 {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .chat-item span {
-    font-size: 12px;
-    color: gray;
+  font-size: 12px;
+  color: gray;
 }
 
-.chat{
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between;   
-    align-items: center;
-    gap: 120px;  
+.chat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 120px;
 }
 .chat-item:hover {
-    background-color: #f0f0f0;
+  background-color: #f0f0f0;
 }
-.chat-containe{
-    display: flex;
-    flex-direction: row;    
-    align-items: center;
-    
+.chat-containe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .chat-chat {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end; 
-    padding: 10px;
-    height: 100%;
-    margin-top: 450px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10px;
+  height: 100%;
+  margin-top: 450px;
 }
 
 .chat-input {
-    display: flex;
-    gap: 10px;
-    padding: 10px;
-    background-color: #f0f0f0; 
-    border-radius: 30px;
-    align-items: center;
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 30px;
+  align-items: center;
 }
-
 
 .chat-input input {
-    flex: 1;
-    padding: 10px 20px;
-    border-radius: 30px;
-    border: none;
-    outline: none;
-    font-size: 16px;
+  flex: 1;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-size: 16px;
 }
 
-
 .chat-input button {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: none;
-    background-color: #0088ff; 
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.2s;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #0088ff;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
 }
 
 .chat-input button:hover {
-    background-color: #006bbf; 
+  background-color: #006bbf;
 }
